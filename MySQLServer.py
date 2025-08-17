@@ -2,8 +2,6 @@ import mysql.connector
 from mysql.connector import Error
 
 def create_database():
-    
-    
     try:
         connection = mysql.connector.connect(
             host="localhost",
